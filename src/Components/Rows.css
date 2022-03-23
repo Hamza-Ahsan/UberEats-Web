@@ -1,0 +1,31 @@
+.rows {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rows__card > img {
+  display: flex;
+  object-fit: contain;
+  width: 380px;
+}
+
+.rows__title {
+  margin-top: 10px;
+}
+
+.rows__title > h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.rows__link {
+  margin-top: 5px;
+}
+
+.rows__link > h4 {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}

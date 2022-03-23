@@ -1,0 +1,126 @@
+.banner {
+    position: relative;
+    background-color: #FFC043;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner__info {
+    padding-top: 30%;
+    padding-left: 40px;
+    width: 70%;
+}
+
+.banner__info > h1 {
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+.banner__addressInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner__addressInput {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 800px;
+}
+
+.banner__addressInput > input {
+    padding: 15px;
+    padding-left: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #757575;
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #a7a5a5;
+}
+.banner__addressInput > input:focus {
+    border-bottom: 2px solid #000;
+    transition: 0.3s;
+}
+
+.banner__inpIcon {
+    position: absolute !important;
+    padding-left: 15px !important;
+    align-items: center !important;
+}
+
+.banner__dropBtn {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+
+.banner__dropBtn > button {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #F6F6F6;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.banner__findBtn {
+    border: 1px solid;
+    padding: 12px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.banner__findBtn > button {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #000;
+    cursor: pointer;
+    color: white;
+}
+
+.banner__signIn {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text__underline {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+/* Sidebar */
+.nav-menu {
+    background-color: #E2E2E2;
+    width: 250px;
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }

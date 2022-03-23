@@ -1,0 +1,67 @@
+.login {
+    width: 45%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login__logo {
+    padding-bottom: 70px;
+}
+
+.login__logo > img {
+    display: flex;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.login > h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.login > p {
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.login > form > input {
+    font-size: 17px;
+    padding: 15px;
+    padding-right: 5px;
+    height: 15px;
+    border: 1px solid #E0E0E0;
+    width: 95%;
+}
+
+.login > form > button {
+    margin-top: 30px;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: #E0E0E0;
+    border: none;
+    cursor: pointer;
+}
+.login > form > button:-ms-input-placeholder {
+    background-color: green;
+}
+
+.login__span {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.green {
+    color: #3E9920;
+}

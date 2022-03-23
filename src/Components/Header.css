@@ -1,0 +1,112 @@
+.header {
+    position: fixed;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    width: 100%;
+    padding-left: 40px;
+    z-index: 1;
+
+    /* Animation */
+    transition-timing-function: ease-out;
+    transition: all 0.5s;
+}
+
+.header__icon {
+    cursor: pointer;
+}
+
+.header__white {
+    background-color: #FFFF;
+}
+
+.header__logo {
+    padding-left: 30px;
+}
+
+.header__logo > img {
+    width: 140px;  
+}
+
+.header__input {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 9pc;
+    width: 30%;
+    max-width: 700px;
+}
+
+.header__input > input {
+    display: flex;
+    padding: 18px;
+    width: 100%;
+    outline: none;
+    background-color: #F6F6F6;
+    color: #757575;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 50px;
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+}
+.header__input > input:focus {
+    border-bottom: 2px solid #000;
+    transition: all 0.3ms;
+}
+
+.header__inpIcon {
+    position: absolute !important;
+    padding-left: 15px;
+}
+
+.header__button {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.header__button > button {
+    padding: 7px 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.header__button > button:hover {
+    background-color: #EEEEEE;
+}
+
+/* Header Sidebar */
+
+/* .header__navSignin {
+    margin: 20px;
+} */
+
+/* .header__navSignin > button {
+    padding: 15px 20px;
+    margin-left: 5px;
+    width: 20%;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+} */
+
+/* .header__sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    width: 30%;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+} */
